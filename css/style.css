@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    height: 74px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    height: 95px;
+    background-color: aqua;
+}
+
+.footer {
+    height: 94px;
+    background-color: bisque;
+}
+
+.nav-left{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right{
+    
+}
+.nav-left ul{
+    display: flex;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    font-size: medium;
+    
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color : white;
+}
